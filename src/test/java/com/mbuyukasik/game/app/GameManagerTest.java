@@ -39,7 +39,7 @@ public class GameManagerTest extends GameAppTest {
 	private GameManager gameManager;
 
 	/**
-	 * Sets up the class
+	 * Sets up the object
 	 */
 	@Before
 	public void setUp() {
