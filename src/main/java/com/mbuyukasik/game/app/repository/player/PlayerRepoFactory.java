@@ -32,8 +32,9 @@ public class PlayerRepoFactory {
 	}
 	
 	/**
-	 * returns player repository instance 
+	 * returns player repository object 
 	 * REPOSITORY_TYPE defines which class's instance will be returned
+	 * @return subClass object of IPlayerRepository interface
 	 */
 	public IPlayerRepository getPlayerRepository() {
 		if (paramRepositoryType.equalsIgnoreCase(EnmRepositoryType.FILE.getId())) {

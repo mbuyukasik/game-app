@@ -23,7 +23,7 @@ import com.mbuyukasik.game.app.service.player.PlayerService;
 import com.mbuyukasik.game.app.service.rank.RankService;
 
 /**
- * GameManager class keeps logic of supported operation.
+ * GameManager class keeps logic of all supported operations
  * For each operation, it prepares the data and delegates the output service to display it
  * 
  * @author: mehmet buyukasik

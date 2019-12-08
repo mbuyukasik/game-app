@@ -30,7 +30,7 @@ public class ConsoleOutputService implements IOutputService {
 	}
 
 	/**
-	 * displayPlayers - Displays id and name of players in playList parameter
+	 * displayPlayers - Displays id and name of players
 	 * 
 	 * @param - playerList : player list to be displayed
 	 */

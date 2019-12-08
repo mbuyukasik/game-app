@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 /**
- * GameBootConfig is the main config file of the boot application
+ * GameBootConfig is the main configuration file of the boot application
  * 
  * @author: mehmet buyukasik
  * @version 1.0

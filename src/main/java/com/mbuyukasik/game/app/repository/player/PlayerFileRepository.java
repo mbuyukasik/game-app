@@ -17,7 +17,7 @@ import com.mbuyukasik.game.app.repository.BaseFileRepository;
 
 /**
  * File system is the source of this player repository class. 
- * filePath and fileName values are read from application config
+ * filePath and fileName values are read from application configuration
  * 
  * @author: mehmet buyukasik
  * @version 1.0

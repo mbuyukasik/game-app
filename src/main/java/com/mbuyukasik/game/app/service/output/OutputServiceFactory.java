@@ -31,6 +31,8 @@ public class OutputServiceFactory {
 	
 	/**
 	 * getOutputService - returns concrete output service class by checking OUTPUT_TYPE value
+	 * 
+	 * @return an object which is instance of IOutputService
 	 */
 	public IOutputService getOutputService() {
 		if (paramOutputType.equalsIgnoreCase(EnmOutputType.CONSOLE.getId())) {

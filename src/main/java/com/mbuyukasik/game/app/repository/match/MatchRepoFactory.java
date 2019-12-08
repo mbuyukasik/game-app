@@ -31,8 +31,9 @@ public class MatchRepoFactory {
 	}
 	
 	/**
-	 * returns match repository instance 
+	 * returns match repository object 
 	 * REPOSITORY_TYPE defines which class's instance will be returned
+	 * @return subClass object of IMatchRepository interface
 	 */
 	public IMatchRepository getMatchRepository() {
 		if (paramRepositoryType.equalsIgnoreCase(EnmRepositoryType.FILE.getId())) {
