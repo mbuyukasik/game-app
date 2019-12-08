@@ -13,16 +13,23 @@
  @Reason		: ING bank assignment
  @Description	: This is a spring boot console application which is used to display players, matches and rank of players. 
  				  Application starts in GameBootApplication class and interacts with user via console. 
- 				  When user types a command, GameBootApplication asks GameManager to take action. GameManager manager keeps the main logic of each operation.
+ 				  When user types a command, GameBootApplication asks GameManager to take action. GameManager manager 
+ 				  keeps the main logic of each operation.
 
-Valid commands:
--------------- 
+VALID COMMANDS:
+***************
 list-players					: Displays all players ordered by their names ASC. Command takes no argument
-list-player-matches	{playerID}	: Displays players' match results. Name of the opposer player and result of match is displayed as a list. 
-								  playerId argument is optional. If specified, only matches of this player are listed.
+------------------------------------------------------------------------------------------------------------
+list-player-matches	{playerID}	: Displays players' match results. Name of the opposer player and result 
+								  of match is displayed as a list. playerId argument is optional. 
+								  If specified, only matches of this player are listed.
+------------------------------------------------------------------------------------------------------------
 list-player-ranks				: Displays all players ordered with their rank ASC. name, rank, win count and loose count fields are displayed
+------------------------------------------------------------------------------------------------------------
 list-suggested-matches			: Generates a match list as suggestion and displays that list as "playerA Name" "playerB Name"
+------------------------------------------------------------------------------------------------------------
 help							: Displays all commands
+------------------------------------------------------------------------------------------------------------
 exit							: This command can be used to quit application
 
 CONFIG
@@ -37,7 +44,7 @@ OUTPUT_TYPE=CONSOLE|EXCEL .Currently only console output service is implemented.
 
 LOGGING
 -------
-Log configurations can be found under resources\logback.xml
+Log configuration can be found under resources\logback.xml
 
 REPOSITORY
 ----------
